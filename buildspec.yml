@@ -6,7 +6,7 @@ env:
     _ECR_NAME: "user06" 
     _NAMESPACE: "user06-ns"
     _AWS_REGION: "ap-northeast-1" 
-
+ 
 phases:
   install:
     runtime-versions:
