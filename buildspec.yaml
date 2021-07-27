@@ -1,9 +1,9 @@
 version: 0.2
- 
+       
 env:
   variables:
-    _PROJECT_NAME: "reservation"
-    _ECR_NAME: "user06"
+    _PROJECT_NAME: "reservation" 
+    _ECR_NAME: "user06" 
     _NAMESPACE: "user06-ns"
     _AWS_REGION: "ap-northeast-1" 
 
@@ -16,6 +16,7 @@ phases:
     commands:
       - echo Logging in to Amazon ECR...
       - echo $_PROJECT_NAME
+      - echo $_ECR_NAME
       - echo $AWS_ACCOUNT_ID
       - echo $_AWS_REGION
       - echo $CODEBUILD_RESOLVED_SOURCE_VERSION
