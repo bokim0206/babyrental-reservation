@@ -1,0 +1,13 @@
+rentalreservation\external\RentalServiceFallback.class
+rentalreservation\ReservationController.class
+rentalreservation\ReservationRepository.class
+rentalreservation\ReservationRegistered.class
+rentalreservation\config\kafka\KafkaProcessor.class
+rentalreservation\PolicyHandler.class
+rentalreservation\ReservationApplication.class
+rentalreservation\AbstractEvent.class
+rentalreservation\Reservation.class
+rentalreservation\AbstractEvent$1.class
+rentalreservation\external\Rental.class
+rentalreservation\external\RentalService.class
+rentalreservation\ReservationCanceled.class
